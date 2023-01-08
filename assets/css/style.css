@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oswald:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -9,8 +9,21 @@
 body{
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 }
 
-header{
-    font-family: 'Rubik Vinyl', cursive;
+
+/*  headings and logo */
+
+h1, h2 {
+    font-family: 'Caveat', cursive, sans-serif;
+    font-weight: 700;
+    color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
