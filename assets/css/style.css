@@ -59,3 +59,35 @@ ul{
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* hero image */
+
+#hero-image{
+    height: 700px;
+    width: 100%;
+    background: url('../images/Hero Image.jpeg') no-repeat center center;
+    background-size: cover;
+
+    /* animates zoom effect */
+    animation: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+#hero-outer{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* creates the level of zoom for hero image */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1)
+    }
+}
