@@ -118,3 +118,37 @@ ul{
 
     position: absolute;
 }
+
+
+/* club info main page */ 
+
+#middle-settings{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* 3 center picture settings */ 
+
+#images-settings{
+
+    content: "";
+    clear: both;
+    height: 50%;
+}
+
+#left-about{
+    width: 33.33%;
+    float: left;
+}
+
+#center-about{
+    width: 33.33%;
+    float: left;
+}
+
+#right-about{
+    width: 33.33%;
+    float: left;
+}
