@@ -133,9 +133,8 @@ ul{
 
 #images-settings{
 
-    content: "";
-    clear: both;
-    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #left-about{
