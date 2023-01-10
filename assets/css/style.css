@@ -26,6 +26,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu{
@@ -60,6 +61,10 @@ ul{
     border-bottom: 1px solid #3a3a3a;
 }
 
+#cover-text, #cover-text h2{
+    color: white;
+}
+
 /* hero image */
 
 #hero-image{
@@ -79,6 +84,8 @@ ul{
     height: 700px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 /* creates the level of zoom for hero image */
@@ -90,4 +97,24 @@ ul{
     to{
         transform: scale(1.1)
     }
+}
+
+#cover-text{
+    font-size: 130%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width :400px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(39, 29, 29, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
