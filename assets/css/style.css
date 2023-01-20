@@ -262,12 +262,10 @@ footer {
         margin: 0 auto;
 
         width: 100%;
-        float: left;
         padding: 0;
 
         clear: both;
         width: 100%;
-        float: left;
         padding: 0;
     }
     #menu{
@@ -288,13 +286,13 @@ footer {
         position: absolute;
         float: right;
     }
+    
 
 }
 
 @media screen and (max-width: 490px) {
         header {
                 font-size: 100%;
-                float: right;
             }
         #logo {
             font-size: 110%;
