@@ -244,7 +244,7 @@ footer {
   /* styling code */
   
   .grid {
-    margin:20px auto;
+    margin:100px auto;
     max-width:1000px;
   }
   
@@ -254,6 +254,10 @@ footer {
     background-size: cover;
   }
 
+  .Ytframe{
+    display: flex; 
+    justify-content: center; 
+  }
   /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 850px) {
     header {

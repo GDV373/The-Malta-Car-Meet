@@ -1,109 +1,74 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The-Malta-Car-Meet Website
+ 
+## Overview
+ 
+### What is this website for?
+ This website is for car meet ups in Malta. with the plan looking like the picture below as reference.
 
-Welcome GDV373,
-Uyyihbjjhh
+![Landing Page](./assets/Readme-md-images/download11111-qe1dbMt72-transformed.jpeg)
+ 
+### What does it do?
+ From this website you can view the place where the next events will take place, pictures and video from gallary and sign up to get the latest updates of new events.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ 
+### How does it work
+ 
+This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code. **Bower** has been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://gdv373.github.io/The-Malta-Car-Meet-media/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
+ 
+### Existing Features
+- Eye catching front page with event winner picture
+  - grid picture box in gallary
+- Information page.
+  - Top navigation to go to different parts of the website
+- Media page with pictures and a video
+- Links page to social media
+### Features Left to Implement
+- None
 
-## Gitpod Reminders
+## Tech Used
+HTML , CSS
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Testing
+- Prototype code was written and tested using several web browsers
+- All code used on the site has been tested to ensure everything is working as expected
+- Site viewed and tested in the following browsers:
+  - Google Chrome
+  - Opera
+  - Microsoft Edge
+  - Mozilla Firefox
 
-`python3 -m http.server`
+- HTML Validtior by - https://validator.w3.org/
 
-A blue button should appear to click: _Make Public_,
+  -Index page
+  ![Index Page](./assets/Readme-md-images/index-html-valid.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+  -Gallary page
+  ![Gallary Page](./assets/Readme-md-images/gallary-html-valid.jpg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  -Sign up page
+  ![Sign up Page](./assets/Readme-md-images/sign-up-html-valid.jpg)
 
-A blue button should appear to click: _Make Public_,
+- CSS Validator by - https://jigsaw.w3.org/css-validator
 
-Another blue button should appear to click: _Open Browser_.
+  ![style Page](./assets/Readme-md-images/CSS-valid.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Contributing
+ 
+### Getting the code up and running
+1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
+2. After you've that you'll need to make sure that you have **npm** installed
+  1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
+4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
+5. Once **http-server** is installed run ```http-server -c-1```
+6. The project will now run on [localhost](http://127.0.0.1:8080)
+7. Make changes to the code and if you think it belongs in here then just submit a pull request
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Credits
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Media
+- The photos used in this site were obtained from [Pixabay]
+- Youtube video was obtained from account Gumbal [https://www.youtube.com/@Gumbal]
 
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
