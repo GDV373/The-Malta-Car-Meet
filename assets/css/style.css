@@ -359,6 +359,9 @@ footer {
     
     .container {
       padding: 5% 30% 4% 30%;
+      background-image: url('../images/pexels-pixabay-ROAD.jpg');
+      background-size: cover;
+      background-repeat: round;
     }
     
     .clearfix::after {
