@@ -130,10 +130,15 @@ ul{
 
 #middle-settings-text{
   text-align: center;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
+  width: 60%;
+  margin: auto;
 }
 
+#middle-settings-text h1{
+  padding-bottom: 20px;
+}
 
 /* 3 center picture settings */ 
 
@@ -196,7 +201,7 @@ ul{
 /* footer settings */ 
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
@@ -208,9 +213,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 300%;
+    margin: 2%;
     color: #3a3a3a;
 }
 
@@ -295,6 +299,9 @@ footer {
         right: 10px;
         position: absolute;
         float: right;
+    }
+    #middle-settings-text{
+      width: 90%;
     }
     
 
