@@ -126,14 +126,15 @@ ul{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
 }
 
 #middle-settings-text{
   text-align: center;
   padding-top: 30px;
   padding-bottom: 10px;
-  width: 60%;
-  margin: auto;
+
 }
 
 #middle-settings-text h1{
