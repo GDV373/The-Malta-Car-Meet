@@ -203,6 +203,9 @@ ul{
 
 footer {
     height: 100px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
 }
 
 .social-networks {
@@ -358,6 +361,7 @@ footer {
     }
     
     .container {
+      margin-top: 2%;
       padding: 5% 30% 4% 30%;
       background-image: url('../images/pexels-pixabay-ROAD.jpg');
       background-size: cover;
