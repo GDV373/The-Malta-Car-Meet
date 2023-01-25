@@ -357,7 +357,7 @@ footer {
     }
     
     .container {
-      padding: 16px;
+      padding: 5% 30% 4% 30%;
     }
     
     .clearfix::after {
