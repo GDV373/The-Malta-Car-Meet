@@ -400,6 +400,11 @@ button:hover {
     #menu{
         float: right;
     }
+
+    .container {
+      width: auto;
+    }
+    
     #cover-text {
         font-size: 50%;
         font-family: 'Edu QLD Beginner', cursive;
@@ -421,6 +426,7 @@ button:hover {
     #times div {
       width: 45%;
   }
+
 
 }
 
