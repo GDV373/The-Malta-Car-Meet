@@ -23,6 +23,10 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+p { 
+  font-size: 25px; 
+}
+
 #logo {
     float: left;
     font-size: 280%;
@@ -203,7 +207,7 @@ ul{
 
 footer {
     height: 100px;
-    position:absolute;
+    position: relative;
     bottom:0;
     width: 100%;
 }
@@ -272,6 +276,56 @@ footer {
     display: flex; 
     justify-content: center; 
   }
+
+  * {box-sizing: border-box}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #0dc27f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.container {
+  margin-top: 2%;
+  padding: 5% 30% 4% 30%;
+  background-image: url('../images/pexels-pixabay-ROAD.jpg');
+  background-size: cover;
+  background-repeat: round;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 850px) {
     header {
@@ -307,7 +361,9 @@ footer {
     #middle-settings-text{
       width: 90%;
     }
-    
+    #times div {
+      width: 45%;
+  }
 
 }
 
@@ -318,64 +374,11 @@ footer {
         #logo {
             font-size: 110%;
         }
-        #times div {
-            width: 45%;
-        
-        }
     }
 
-    * {box-sizing: border-box}
-
-      input[type=text], input[type=password] {
-      width: 100%;
-      padding: 15px;
-      margin: 5px 0 22px 0;
-      display: inline-block;
-      border: none;
-      background: #f1f1f1;
-    }
     
-    input[type=text]:focus, input[type=password]:focus {
-      background-color: #ddd;
-      outline: none;
-    }
-    
-    hr {
-      border: 1px solid #f1f1f1;
-      margin-bottom: 25px;
-    }
-    
-    button {
-      background-color: #0dc27f;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      cursor: pointer;
-      width: 100%;
-      opacity: 0.9;
-    }
-    
-    button:hover {
-      opacity:1;
-    }
-    
-    .container {
-      margin-top: 2%;
-      padding: 5% 30% 4% 30%;
-      background-image: url('../images/pexels-pixabay-ROAD.jpg');
-      background-size: cover;
-      background-repeat: round;
-    }
-    
-    .clearfix::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    
-    @media screen and (max-width: 300px) {
+@media screen and (max-width: 300px) {
       .cancelbtn, .signupbtn {
         width: 100%;
       }
-    }
+}
