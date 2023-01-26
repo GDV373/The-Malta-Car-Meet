@@ -71,4 +71,6 @@ HTML , CSS
 ### Media
 - The photos used in this site were obtained from [Pixabay]
 - Youtube video was obtained from account Gumbal [https://www.youtube.com/@Gumbal]
+- Fonts from fonts.google.com 
+- Icons from fontawesome.com
 

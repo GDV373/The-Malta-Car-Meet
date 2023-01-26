@@ -393,7 +393,7 @@ button:hover {
         position: absolute;
         float: right;
     }
-    #middle-settings-text{
+    #middle-settings-text, #middle-settings{
       width: 90%;
     }
     #times div {
