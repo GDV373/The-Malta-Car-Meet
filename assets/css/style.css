@@ -26,6 +26,13 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+#gallaryh2 {
+  padding-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
 p { 
   font-size: 25px; 
 }
@@ -277,6 +284,8 @@ footer {
   .Ytframe{
     display: flex; 
     justify-content: center; 
+    padding: 5%;
+
   }
 
   * {box-sizing: border-box}
