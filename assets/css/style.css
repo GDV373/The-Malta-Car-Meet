@@ -346,7 +346,20 @@ button:hover {
 }
 #contact {
   padding-bottom: 4rem;
+  margin: auto;
 }
+
+/*Sign up settings */
+.col-lg-6{
+  float: left;
+}
+
+.col-lg-7{
+  float: left;
+  padding: 20px;
+}
+
+
 
   /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 850px) {
