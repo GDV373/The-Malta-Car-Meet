@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Edu+QLD+Beginner&display=swap');
+
 
 * {
     margin: 0;
@@ -7,13 +9,12 @@
 }
 
 body{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+  font-family: 'Edu QLD Beginner', cursive;
+    font-weight: 700px;
     color: #3a3a3a;
     display: flex;
     flex-direction: column;
 }
-
 
 
 /*  headings and logo */
@@ -115,7 +116,7 @@ ul{
 
 #cover-text{
     font-size: 130%;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -337,6 +338,16 @@ button:hover {
   clear: both;
   display: table;
 }
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+
   /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 850px) {
     header {
@@ -356,7 +367,7 @@ button:hover {
     }
     #cover-text {
         font-size: 50%;
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Edu QLD Beginner', cursive;
         text-transform: uppercase;
         letter-spacing: 4px;
         width: auto;
@@ -393,3 +404,4 @@ button:hover {
         width: 100%;
       }
 }
+
