@@ -36,6 +36,8 @@ h1, h2 {
 
 p { 
   font-size: 25px; 
+  margin-top: 10px;
+
 }
 
 #logo {
@@ -139,7 +141,7 @@ ul{
 
 #middle-settings{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     width: 60%;
     margin: auto;
