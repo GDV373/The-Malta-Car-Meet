@@ -27,8 +27,19 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+#galleryh2_title{
+  padding-left: 1%;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+#gallaryh1 {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
 #gallaryh2 {
-  padding-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
@@ -36,7 +47,8 @@ h1, h2 {
 
 p { 
   font-size: 25px; 
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
@@ -274,7 +286,7 @@ footer {
   /* styling code */
   
   .grid {
-    margin:100px auto;
+    margin:50px auto;
     max-width:80%;
   }
   
@@ -287,7 +299,7 @@ footer {
   .Ytframe{
     display: flex; 
     justify-content: center; 
-    padding: 5%;
+    margin: 50px
 
   }
 
@@ -327,12 +339,20 @@ button:hover {
   opacity:1;
 }
 
-.container {
-  margin-top: 2%;
-  padding: 5% 30% 4% 30%;
-  background-image: url('../images/pexels-pixabay-ROAD.jpg');
+.form {
+  background-image: url(../images/pexels-pixabay-ROAD.jpg);
   background-size: cover;
   background-repeat: round;
+  height: 700px;
+}
+
+.container {
+  background: white;
+  width: 30%;
+  margin: auto;
+  margin-top: 55px;
+  padding: 20px;
+  opacity: 0.95;
 }
 
 .clearfix::after {
