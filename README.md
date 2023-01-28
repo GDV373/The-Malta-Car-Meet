@@ -164,6 +164,12 @@ Various images, found in the images folder,  these are beening used across the s
 
   ![style Page](./assets/Readme-md-images/CSS-valid.jpg)
 
+- lighthouse performance
+
+  ![performance-pdf](./assets/Readme-files-storage/Google lighthouse performance.pdf)
+  ![performance-pdf](./assets/Readme-files-storage/Google lighthouse performance Gallery page.pdf)
+  ![performance-pdf](./assets/Readme-files-storage/Google lighthouse performance signup page.pdf)
+
 
 ## Deployment
 
