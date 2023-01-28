@@ -6,7 +6,7 @@
 
 ## Table of contents
 1. [Introduction](#Introduction)
-2. [How dose it work](#How-does-it-work)
+2. [How does it work](#How-does-it-work)
 3. [UX](#UX)
     1. [Ideal User Demographic](#Ideal-User-Demographic)
     2. [User Stories](#User-Stories)
@@ -199,12 +199,12 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 - All videos were sourced from Gumbal`s channel on [YouTube](https://www.youtube.com/@Gumbal "Link to Gumbal YouTube Home Page")
 
 ### Code 
-The code was made from the skeliton of the example used in the coders coffee house but it was implimented in my own way. Using different stratages of colors ,placements and use for the website. 
+The code was made from the skeleton of the example used in the coders coffee house but it was implimented in my own way. Using different stratages of colors ,placements and use for the website. 
 
 
 ## Acknowledgements
 
 - I would like to thank my family for their valued opinions and critic during the process of design and development, espacially my wife while trying to hold down the fort with our 3 week old daughter Millie <3 .
-- I would like to thank my mentor, koko, for her invaluable help and guidance throughout the process.
+- I would like to thank my mentor, Owonikoko Oluwaseun, for her invaluable help and guidance throughout the process.
 
 ***
