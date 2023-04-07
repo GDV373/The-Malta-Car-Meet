@@ -430,12 +430,17 @@ button:hover {
 
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 500px) {
         header {
                 font-size: 100%;
             }
         #logo {
             font-size: 110%;
+        }
+
+        #embedmap-canvas{
+          width: 100vw;
+          height: 100vw;
         }
     }
 
