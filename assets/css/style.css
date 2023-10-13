@@ -386,6 +386,18 @@ button:hover {
   padding: 20px;
 }
 
+#embedmap-canvas img {
+  max-width: none !important;
+  background: none !important;
+  font-size: inherit;
+  font-weight: inherit;
+}
+#embedmap-canvas {
+  width: 100%; /* Set the width to 100% to prevent side-scrolling */
+  height: 500px;
+  max-width: 100%;
+  overflow: hidden;
+}
 
 
   /* For larger to medium screens size from 1200px wide and down */
