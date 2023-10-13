@@ -377,24 +377,20 @@ button:hover {
 }
 
 /*Sign up settings */
-.col-lg-6{
-  float: left;
-}
 
 .col-lg-7{
-  float: left;
+  /* float: left; */
   padding: 20px;
 }
 
 #embedmap-canvas img {
-  max-width: none !important;
-  background: none !important;
+  max-width: 100%;
+  background: 100%;
   font-size: inherit;
   font-weight: inherit;
 }
 #map-container {
-  width: 100%; /* Set the width to 100% to prevent side-scrolling */
-  max-width: 100%;
+  width: 100%; 
   overflow: hidden;
 }
 #embedmap-canvas {
