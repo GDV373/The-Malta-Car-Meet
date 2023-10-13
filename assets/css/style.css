@@ -392,11 +392,14 @@ button:hover {
   font-size: inherit;
   font-weight: inherit;
 }
-#embedmap-canvas {
+#map-container {
   width: 100%; /* Set the width to 100% to prevent side-scrolling */
-  height: 500px;
   max-width: 100%;
   overflow: hidden;
+}
+#embedmap-canvas {
+  width: 100%;
+  height: 500px;
 }
 
 
