@@ -380,6 +380,7 @@ button:hover {
 
 .col-lg-7{
   padding: 20px;
+  
 }
 
 #embedmap-canvas img {
@@ -459,6 +460,10 @@ button:hover {
         #embedmap-canvas{
           width: 100%;
           height: 100%;
+        }
+        .col-lg-7{
+          font-size: 20px;
+          
         }
     }
 
