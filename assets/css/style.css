@@ -373,13 +373,12 @@ button:hover {
 }
 #contact {
   padding-bottom: 4rem;
-  margin: auto;
+  margin: 5%;
 }
 
 /*Sign up settings */
 
 .col-lg-7{
-  /* float: left; */
   padding: 20px;
 }
 
