@@ -150,29 +150,42 @@ Various images, found in the images folder,  these are beening used across the s
   - Mozilla Firefox
 
 - HTML Validtior by - https://validator.w3.org/
+- HTML and CSS validation was done via Direct manual input for each page as these is a known bug with font awesome causing an unfiaxble error using URL Validate
 
   -Index page
-  ![Index Page](./assets/Readme-md-images/index-html-valid.jpg)
+ <details>
+ <summary>HTML_index_validation</summary>
+
+ ![HTML_index_validation](assets/Readme-md-images/HTML_index_validation.png)
+ </details>
 
   -Gallary page
-  ![Gallary Page](./assets/Readme-md-images/gallary-html-valid.jpg)
+  <details>
+  <summary>Gallary page</summary>
+
+  ![Gallary Page](assets/Readme-md-images/HTML_gallery_validation.png)
+  </details>
 
   -Sign up page
-  ![Sign up Page](./assets/Readme-md-images/sign-up-html-valid.jpg)
+  <details>
+  <summary>Sign up page</summary>
+
+  ![Sign up Page](assets/Readme-md-images/HTML_signup_validation.png)
+  </details>
 
 - CSS Validator by - https://jigsaw.w3.org/css-validator
 
-  ![style Page](./assets/Readme-md-images/CSS-valid.jpg)
+  ![style Page](assets/Readme-md-images/CSS_validation.png)
 
 - lighthouse performance
 
-  ![performance-pdf](./assets/Readme-files-storage/Google lighthouse performance.pdf)
+  ![performance-pdf](./assets/Readme-files-storage/Google_lighthouse_performance.pdf)
 
 
-  ![performance-pdf](./assets/Readme-files-storage/Google lighthouse performance Gallery page.pdf)
+  ![performance-pdf](./assets/Readme-files-storage/Google_lighthouse_performance_Gallery_page.pdf)
 
   
-  ![performance-pdf](./assets/Readme-files-storage/Google lighthouse performance signup page.pdf)
+  ![performance-pdf](./assets/Readme-files-storage/Google_lighthouse_performance_signup_page.pdf)
 
 
 ## Deployment
