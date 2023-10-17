@@ -70,14 +70,14 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 <summary>Balsamiq Wireframes
 
 -Index page frame work
-![Index page frame work](./assets/Readme-md-images/WireFrames/New Wireframe 1.png)
+![Index page frame work](./assets/Readme-md-images/WireFrames/New_Wireframe_1.png)
 
 -Gallery page frame work
-![Gallery page frame work](./assets/Readme-md-images/WireFrames/New Wireframe 2 - gallery.png)
+![Gallery page frame work](./assets/Readme-md-images/WireFrames/New_Wireframe_2_gallery.png)
 
 
 -Sign up page frame work
-![Sign up page frame work](./assets/Readme-md-images/WireFrames/New Wireframe 3 - signup.png)
+![Sign up page frame work](./assets/Readme-md-images/WireFrames/New_Wireframe_3_signup.png)
   
 
 In addition to this, concept art was made using Balsmamiq to showcase the appearance of the home page. The concept art made some improvements upon the initial wireframes with regards to layout and features. but stayed mostly true to the original design.
@@ -183,13 +183,13 @@ Various images, found in the images folder,  these are beening used across the s
 
 - lighthouse performance
 
-  ![performance-pdf](./assets/Readme-files-storage/Google_lighthouse_performance.pdf)
+  ![performance-pdf for Index Page](./assets/Readme-files-storage/Google_lighthouse_performance.pdf)
 
 
-  ![performance-pdf](./assets/Readme-files-storage/Google_lighthouse_performance_Gallery_page.pdf)
+  ![performance-pdf for Galary Page](./assets/Readme-files-storage/Google_lighthouse_performance_Gallery_page.pdf)
 
   
-  ![performance-pdf](./assets/Readme-files-storage/Google_lighthouse_performance_signup_page.pdf)
+  ![performance-pdf for SignUp page](./assets/Readme-files-storage/Google_lighthouse_performance_signup_page.pdf)
 
 
 ## Deployment
@@ -222,6 +222,7 @@ The code was made from the skeleton of the example used in the coders coffee hou
 ## Acknowledgements
 
 - I would like to thank my family for their valued opinions and critic during the process of design and development, espacially my wife while trying to hold down the fort with our 3 week old daughter Millie <3 .
-- I would like to thank my mentor, Owonikoko Oluwaseun, for her invaluable help and guidance throughout the process.
+- I would like to thank my mentor, Brian Macharia , for helping me to give a better knowladge about what was needed for the project. This was very helpfull as this was my last attempt to pass this test.
+- Thank you for all of the support. 
 
 ***
