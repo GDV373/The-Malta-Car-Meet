@@ -174,8 +174,12 @@ Various images, found in the images folder,  these are beening used across the s
   </details>
 
 - CSS Validator by - https://jigsaw.w3.org/css-validator
+  <details>
+  <summary>style Page</summary>
 
   ![style Page](assets/Readme-md-images/CSS_validation.png)
+  </details>
+
 
 - lighthouse performance
 
