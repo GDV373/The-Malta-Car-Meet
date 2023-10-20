@@ -150,7 +150,7 @@ Various images, found in the images folder,  these are beening used across the s
   - Mozilla Firefox
 
 - HTML Validtior by - https://validator.w3.org/
-- HTML and CSS validation was done via Direct manual input for each page as these is a known bug with font awesome causing an unfiaxble error using URL Validate
+- HTML and CSS validation was done via Direct manual input for each page and url. No errors were given with screen shoots validation below. 
 
   -Index page
  <details>
@@ -174,14 +174,15 @@ Various images, found in the images folder,  these are beening used across the s
   </details>
 
 - CSS Validator by - https://jigsaw.w3.org/css-validator
-  <details>
+<details>
   <summary>style Page</summary>
 
   ![style Page](assets/Readme-md-images/CSS_validation.png)
-  </details>
+</details>
 
 
 - lighthouse performance
+- Lighthouse was done on evey page with very good score. Pdf with the result are avalable below. 
 
   ![performance-pdf for Index Page](./assets/Readme-files-storage/Google_lighthouse_performance.pdf)
 
