@@ -1,6 +1,6 @@
 # The-Malta-Car-Meet Website
 
-![Landing Page](./assets/Readme-md-images/download11111-qe1dbMt72-transformed.jpeg)
+![Landing Page](./assets/Readme-md-images/Website_moke_up.png)
 
 [View the live project here](https://gdv373.github.io/The-Malta-Car-Meet-media/)
 
